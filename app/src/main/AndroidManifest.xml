@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ekatha">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cdshome"></activity>
+        <activity
+            android:name=".enterplogin"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".memberlogin"
+            android:parentActivityName=".cdslogin" />
+        <activity
+            android:name=".cdslogin"
+            android:parentActivityName=".presiregi" />
+        <activity
+            android:name=".presiregi"
+            android:parentActivityName=".presilogin" />
+        <activity
+            android:name=".presilogin"
+            android:parentActivityName=".home" />
+        <activity android:name=".home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

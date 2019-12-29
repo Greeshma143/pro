@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97631965752",
+    "firebase_url": "https://ekatha-e980e.firebaseio.com",
+    "project_id": "ekatha-e980e",
+    "storage_bucket": "ekatha-e980e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97631965752:android:debb3b1fffe54ef7c04ccd",
+        "android_client_info": {
+          "package_name": "com.example.ekatha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97631965752-s2jcs58ch61clbiahch6odvrkbq0g8ce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ekatha",
+            "certificate_hash": "02772fbca50c41bf854cb2e25840c6350fc5a8a3"
+          }
+        },
+        {
+          "client_id": "97631965752-c21due3dlm4amd7eooegj5m00f80vlgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3NUL9GfjkfeoxynIgcub34FxXyA4mj-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97631965752-c21due3dlm4amd7eooegj5m00f80vlgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
